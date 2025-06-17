@@ -91,12 +91,12 @@ echo [*] Using driver: !driver!
 timeout /t 2 >nul
 
 :: Lancer le spoofer avec le driver
-conspiracy.exe /SS "ALZAABI-%RANDOM%%RANDOM%-ALZAABI-%RANDOM%%RANDOM%-ALZAABI-%RANDOM%%RANDOM%" >nul 2>&1
-conspiracy.exe /BS "ALZAABI-%RANDOM%%RANDOM%-ALZAABI-%RANDOM%%RANDOM%-ALZAABI-%RANDOM%%RANDOM%" >nul 2>&1
-conspiracy.exe /BP "ALZAABI-%RANDOM%%RANDOM%-ALZAABI-%RANDOM%%RANDOM%-ALZAABI-%RANDOM%%RANDOM%" >nul 2>&1
-conspiracy.exe /SP "ALZAABI-%RANDOM%%RANDOM%-ALZAABI-%RANDOM%%RANDOM%-ALZAABI-%RANDOM%%RANDOM%" >nul 2>&1
-conspiracy.exe /PSN "ALZAABI-%RANDOM%%RANDOM%-ALZAABI-%RANDOM%%RANDOM%-ALZAABI-%RANDOM%%RANDOM%" >nul 2>&1
-conspiracy.exe /DD "ALZAABI-%RANDOM%%RANDOM%-ALZAABI-%RANDOM%%RANDOM%-ALZAABI-%RANDOM%%RANDOM%" >nul 2>&1
+conspiracy.exe /SS "ALZAABI-%RANDOM%%RANDOM%-%RANDOM%%RANDOM%" >nul 2>&1
+conspiracy.exe /BS "ALZAABI-%RANDOM%%RANDOM%-%RANDOM%%RANDOM%" >nul 2>&1
+conspiracy.exe /BP "ALZAABI-%RANDOM%%RANDOM%-%RANDOM%%RANDOM%" >nul 2>&1
+conspiracy.exe /SP "ALZAABI-%RANDOM%%RANDOM%-%RANDOM%%RANDOM%" >nul 2>&1
+conspiracy.exe /PSN "ALZAABI-%RANDOM%%RANDOM%-%RANDOM%%RANDOM%" >nul 2>&1
+conspiracy.exe /DD "ALZAABI-%RANDOM%%RANDOM%-%RANDOM%%RANDOM%" >nul 2>&1
 conspiracy.exe /SU auto >nul 2>&1
 
 
